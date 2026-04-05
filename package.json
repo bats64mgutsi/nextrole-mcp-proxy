@@ -1,6 +1,6 @@
 {
   "name": "nextrole-mcp-proxy",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "MCP proxy server for NextRole CV tailoring services",
   "main": "dist/index.js",
   "bin": {
@@ -17,6 +17,7 @@
     "prepare": "npm run build",
     "prepublishOnly": "npm run build"
   },
+  "mcpName": "io.github.bats64mgutsi/nextrole-mcp-proxy",
   "keywords": [
     "mcp",
     "model-context-protocol",
