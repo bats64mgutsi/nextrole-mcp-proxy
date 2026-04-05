@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.bats64mgutsi/nextrole-mcp-proxy",
+  "description": "MCP proxy server for NextRole CV tailoring services",
+  "repository": {
+    "url": "https://github.com/bats64mgutsi/nextrole-mcp-proxy",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "nextrole-mcp-proxy",
+      "version": "0.2.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
