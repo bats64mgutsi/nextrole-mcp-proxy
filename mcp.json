@@ -1,0 +1,34 @@
+{
+  "mcpVersion": "2024-11-05",
+  "name": "nextrole-mcp-proxy",
+  "version": "1.0.0",
+  "description": "Professional CV and cover letter tailoring service through MCP",
+  "author": "NextRole",
+  "license": "MIT",
+  "runtime": {
+    "node": ">=18.0.0"
+  },
+  "entrypoint": {
+    "command": "node",
+    "args": ["dist/index.js"]
+  },
+  "tools": [
+    {
+      "name": "GetPricing",
+      "description": "Get available CV tailoring service tiers and pricing information"
+    },
+    {
+      "name": "GetCredits", 
+      "description": "Check remaining CV tailoring credits for a user account"
+    },
+    {
+      "name": "PlaceOrder",
+      "description": "Place an order for CV and cover letter tailoring services"
+    }
+  ],
+  "categories": [
+    "productivity",
+    "career",
+    "document-processing"
+  ]
+}
